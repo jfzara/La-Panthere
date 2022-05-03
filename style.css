@@ -8,6 +8,11 @@
     color:#101010;
     border:2px black solid;
 }
+.l-bloc .navbar a {
+    text-decoration: none;
+    color: #101010;
+
+}
 
 .col-sm-3 {
     width: 50%;
@@ -26,6 +31,7 @@
 .lien-partenaires {
     font-weight: 700;
     color: #101010;
+    font-family: "helvetica";
     text-decoration: underline;
 }
 
@@ -35,6 +41,7 @@
     align-items: center;
     color: #101010;
     margin-top: 4rem;
+    font-family: "helvetica";
 }
 
 .row-partenaires {
@@ -54,6 +61,11 @@
     color: #101010;
     font-size: 1.5rem;
 }
+.titre-footer {
+    margin-left: 26%;
+}
+
+
 
 body {
     margin: 0;
@@ -191,7 +203,7 @@ a:hover {
 }
 
 .d-bloc a .icon-md {
-    color: rgb(38 5 5 / 75%);
+    color: #101010;
 }
 
 .d-bloc .a-btn,
@@ -293,7 +305,6 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
@@ -738,9 +749,7 @@ label,
     color: #101010;
 }
 
-.container {
-    max-width: 1000px;
-}
+
 
 .hero-bloc-text {
     font-size: 2rem;
@@ -786,8 +795,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: baseline;
 }
 
 .social span {
