@@ -1,3 +1,7 @@
+.col-sm-3 {
+    width: 50%;
+}
+
 .mg-md {
     text-transform: uppercase;
     font-weight: 600;
