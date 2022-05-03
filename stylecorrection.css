@@ -29,8 +29,9 @@
 }
 
 .titre-pub {
-    color: #101010;
+   border: #c27956 1px solid;
     font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .text-center {
@@ -699,7 +700,7 @@ a[data-lightbox]:hover img {
 }
 
 h2 {
-    color: #e54c12f2
+    color: #101010;
 }
 
 h1,
