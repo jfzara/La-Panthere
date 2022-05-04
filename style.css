@@ -9,9 +9,13 @@
     border:2px black solid;
 }
 .l-bloc .navbar a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #101010;
 
+}
+
+ a:hover, li:hover, .social:hover {
+    text-decoration: underline;
 }
 
 .col-sm-3 {
